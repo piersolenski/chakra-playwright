@@ -1,3 +1,5 @@
+import { test, expect } from "@playwright/test";
+
 test("should navigate to the Installation page", async ({ page }) => {
   await page.goto("https://chakra-ui.com");
   await page.click('[href="/getting-started"]');
